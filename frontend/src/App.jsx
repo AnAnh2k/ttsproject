@@ -1,10 +1,11 @@
 import React from 'react';
+import LoginPage from './pages/LoginPage';
 
 function App() {
   return (
-    <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', textAlign: 'center' }}>
-      <h1>Chào mừng đến với Future-R!</h1>
-      <p>Ứng dụng đang trong quá trình phát triển.</p>
+    <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px' }}>
+      <h1 style={{ textAlign: 'center' }}>Chào mừng đến với Future-R!</h1>
+      <LoginPage />
     </div>
   );
 }
